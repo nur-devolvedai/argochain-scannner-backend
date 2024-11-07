@@ -1,0 +1,75 @@
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.log
+
+# Virtual environment directories
+venv/
+env/
+.venv/
+.env/
+
+# Environment variable and secrets files
+*.env
+*.env.*
+.envrc
+.secret
+.DS_Store
+
+# IDE and editor config files
+.idea/
+.vscode/
+*.sublime-workspace
+
+# OS-specific files
+Thumbs.db
+.DS_Store
+
+# Pytest cache
+.cache/
+
+# Database and local storage files
+*.sqlite3
+*.db
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Mypy
+.mypy_cache/
+
+# Pyre type checker
+.pyre/
+
+# Coverage reports
+htmlcov/
+.coverage
+*.cover
+*.coverage.*
+
+# Test and coverage artifacts
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# FastAPI specific
+*.log
+log/
+logs/
+
+# Docker files
+docker-compose.override.yml
+docker-compose.yml
+Dockerfile
+
+# Security directories
+.pdm/
+.pdm.toml
+.pipenv/
+.pipenv.lock
+node_modules/
